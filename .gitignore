@@ -1,0 +1,4 @@
+*.jar
+out/*
+.idea/*
+.gradle/*
