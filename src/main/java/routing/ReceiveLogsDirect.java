@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 
 public class ReceiveLogsDirect {
 
-    private static final String EXCHANGE_NAME = "logs";
+    private static final String EXCHANGE_NAME = "direct_logs";
 
     public static void main(String[] argv) throws IOException, TimeoutException {
         RabbitQueue queue = new RabbitQueue("localhost");

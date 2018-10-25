@@ -16,6 +16,13 @@ public class MessageUtils {
         return strings[0];
     }
 
+    public static String getRouting(String[] strings){
+        if (strings.length < 1){
+            return "anonymous.info";
+        }
+        return strings[0];
+    }
+
     public static String joinStrings(String[] strings, String delimiter, int startIndex) {
         int length = strings.length;
         if (length == 0) return "";
